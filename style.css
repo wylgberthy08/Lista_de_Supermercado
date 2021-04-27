@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(93, 93, 196);
+    text-align: center;
+    color: rgb(252, 252, 252);
+    padding: 20px 0;
+}
+
+.lista-cadastro{
+    display: flex;
+    margin: 20px 0;
+    padding: 20px;
+}
+.lista-cadastro input[type=text]{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.lista-produtos-single{
+    padding: 10px;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+input[type="submit"]{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.lista-produtos-single h3{
+     flex: 1;
+     padding: 0 20px;
+}
+h3.price-produto{
+    text-align: right;
+}
+h3.price-produto > span{
+    background-color: rgb(93, 93, 196);
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+.soma{
+    margin: 20px;
+}
+button[name="limpar"]{
+    background-color:white;
+    margin-left: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
